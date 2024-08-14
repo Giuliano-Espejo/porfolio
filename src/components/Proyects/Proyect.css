@@ -1,0 +1,26 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .carousel {
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 60%; /* Ajusta el ancho del carrusel */
+    max-width: 500px; /* Define un ancho máximo para el carrusel */
+    max-height: 300px; /* Define una altura máxima para el carrusel */
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cubre el área del contenedor sin distorsionar la imagen */
+    max-height: 300px; /* Limita la altura máxima de las imágenes */
+  }
+  
+  .text-content {
+    width: 50%; /* Ajusta el ancho del área de texto */
+    margin-right: 4%;
+  }
+  

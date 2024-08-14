@@ -1,6 +1,7 @@
 import "./App.css";
 import Contact from "./components/Contact/Contact";
 import Presentation from "./components/Presentation/Presentation";
+import ProyectList from "./components/Proyects/ProyectList";
 import SkillList from "./components/Skills/SkillList";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <div>
         <Presentation/>
         <SkillList/>
-
+        <ProyectList/>
         <Contact/>
       </div>
     </>
