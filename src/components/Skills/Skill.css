@@ -1,0 +1,18 @@
+img {
+    padding: 5%;
+}
+
+@media (width > 700px) {
+    .card-skill{
+        width: 10%;
+        max-width: 15%;
+    }
+}
+
+
+@media (width < 700px) {
+    .card-skill{
+        width: 25%;
+        max-width: 25%;
+    }
+}

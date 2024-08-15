@@ -1,0 +1,10 @@
+a > img {
+    width: 3em;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente fila */
+    justify-content: center;
+    gap: 2vh; /* Espacio entre las tarjetas */
+}

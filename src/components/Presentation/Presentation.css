@@ -1,0 +1,12 @@
+.foto-cara {
+    background-color: black;
+    border-radius: 100%;
+}
+@media (width < 900px ){
+    .foto-cara{
+        width: 0px;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+}

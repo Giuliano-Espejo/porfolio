@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "./Proyect.css";
+import { Button } from 'react-bootstrap';
 
 interface ImgCarousel {
   nombre: string,
@@ -11,9 +12,10 @@ interface ImgCarousel {
   alt2: string,
   imagen3: string,
   alt3: string,
+  repo: string
 }
 
-export const Proyect: FC<ImgCarousel> = ({ imagen, alt, imagen2, alt2, imagen3, alt3, nombre, desc }) => {
+export const Proyect: FC<ImgCarousel> = ({ imagen, alt, imagen2, alt2, imagen3, alt3, nombre, desc, repo }) => {
   return (
     <div className="carousel-container">
       <Carousel className="carousel" data-bs-theme="dark">
@@ -42,8 +44,16 @@ export const Proyect: FC<ImgCarousel> = ({ imagen, alt, imagen2, alt2, imagen3, 
       <div className="text-content">
         <h3>{nombre}</h3>
         <p>
-         {desc}
+          {desc}
         </p>
+        {
+          (repo != "") ?
+            <a href={repo} target="_blanck">
+              <Button className='btn-dark'>Github</Button>
+            </a>    
+            :
+            null
+      }
       </div>
     </div>
   );
