@@ -6,13 +6,13 @@ export default function SkillList() {
         <>
             <h2>Habilidades Técnicas</h2>
             <div className='containerListSkill'>
-                <Skill nombre="Spring" imagen="public/spring.png" />
-                <Skill nombre="Java" imagen="public/java.png" />
-                <Skill nombre="Git" imagen="public/git.png" />
-                <Skill nombre="GitHub" imagen="public/github.png" />
-                <Skill nombre="Intellij" imagen="public/intellij.png" />
-                <Skill nombre="Visual Studio Code" imagen="public/vscode.png" />
-                <Skill nombre='MySql' imagen='public/mysql.png' />
+                <Skill nombre="Spring" imagen="/static/spring.png" />
+                <Skill nombre="Java" imagen="/static/java.png" />
+                <Skill nombre="Git" imagen="/static/git.png" />
+                <Skill nombre="GitHub" imagen="/static/github.png" />
+                <Skill nombre="Intellij" imagen="/static/intellij.png" />
+                <Skill nombre="Visual Studio Code" imagen="/static/vscode.png" />
+                <Skill nombre='MySql' imagen='/static/mysql.png' />
             </div>
         </>
     )
