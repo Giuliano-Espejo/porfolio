@@ -1,7 +1,35 @@
-.foto-cara {
-    background-color: black;
-    border-radius: 100%;
+.container {
+    margin-top: 3%;
+    width: 75%;
 }
+
+.presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-content-presentation{
+    display: flex;
+    flex-direction: column; /* Coloca el h1 arriba del h2 */
+    justify-content: center; /* Centra verticalmente el contenido de texto */
+    margin-right: 4%;
+}
+
+.foto-cara{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 100%;
+    background-color: black;
+    border-color: black;
+    padding: 0.4rem;
+    width: 15%;
+}
+
+.cv {
+    text-align: center;
+}
+
 @media (width < 900px ){
     .foto-cara{
         width: 0px;

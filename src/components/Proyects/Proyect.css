@@ -1,3 +1,6 @@
+.proyectos {
+  margin-bottom: 20%;
+}
 
 .carousel {
   margin-top: 2%;
@@ -15,6 +18,10 @@
 .text-content{
   margin-left: 3%;
   margin-right: 3%;
+}
+
+.github{
+  text-align: center;
 }
 
 @media (width > 900px) {
@@ -42,5 +49,12 @@
   .text-content {
     width: 50%; /* Ajusta el ancho del área de texto */
     margin-right: 4%;
+    text-align: left;
+  }
+  .text-content h3{
+    text-align: center;
+  }
+  .proyectos{
+    margin-bottom: 6%;
   }
 }

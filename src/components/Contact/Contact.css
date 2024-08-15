@@ -2,9 +2,22 @@ a > img {
     width: 3em;
 }
 
-footer{
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+footer {
+    position: fixed; /* Fija el footer en la pantalla */
+    bottom: 0; /* Lo coloca en la parte inferior */
+    left: 0;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho de la pantalla */
+    background-color: white; /* Cambia el color de fondo si es necesario */
     display: flex;
     flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente fila */
     justify-content: center;
     gap: 2vh; /* Espacio entre las tarjetas */
+    padding: 10px 0; /* Espacio interno en el footer */
+    z-index: 1000; /* Asegura que el footer esté encima de otros elementos */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Añade una sombra para diferenciarlo del contenido */
 }

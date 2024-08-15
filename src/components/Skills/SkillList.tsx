@@ -3,8 +3,8 @@ import "./SkillList.css"
 
 export default function SkillList() {
     return (
-        <>
-            <h2>Habilidades Técnicas</h2>
+        <div className='skills'>
+            <h2 style={{textAlign:"center", marginTop:"3%"}} >Habilidades Técnicas</h2>
             <div className='containerListSkill'>
                 <Skill nombre="Spring" imagen="/static/spring.png" />
                 <Skill nombre="Java" imagen="/static/java.png" />
@@ -14,6 +14,6 @@ export default function SkillList() {
                 <Skill nombre="Visual Studio Code" imagen="/static/vscode.png" />
                 <Skill nombre='MySql' imagen='/static/mysql.png' />
             </div>
-        </>
+        </div>
     )
 }

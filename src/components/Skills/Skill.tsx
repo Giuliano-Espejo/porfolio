@@ -3,15 +3,13 @@ import { FC } from "react"
 import "./Skill.css"
 
 interface SkillDetails {
-    nombre:string,
-    imagen:string,
+    nombre: string,
+    imagen: string,
 }
-export const Skill: FC<SkillDetails> = ( {nombre, imagen}) => {
-    // console.log("img", imagen);
-    // console.log("nombre", nombre);
+export const Skill: FC<SkillDetails> = ({ nombre, imagen }) => {
     return (
-    <Card className='card-skill'>
-      <Card.Img variant="top" src={imagen} alt={nombre} />
-    </Card>
-  );
+        <Card className='card-skill' title={nombre}>
+            <Card.Img variant="top" src={imagen} alt={nombre} />
+        </Card>
+    );
 }
