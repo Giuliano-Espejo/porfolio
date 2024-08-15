@@ -4,16 +4,16 @@ export default function Contact() {
     return (
         <footer>
                 <a href={"https://www.linkedin.com/in/giuliano-espejo-mezzabotta/"} target="_blank">
-                    <img src="src/assets/lk.webp" alt="Linkedin" />
+                    <img src="public/lk.webp" alt="Linkedin" />
                 </a>
                 <a href="https://github.com/Giuliano-Espejo" target="_black">
-                    <img src="src/assets/github.png" alt="Github" />
+                    <img src="public/github.png" alt="Github" />
                 </a>
                 <a href="mailto:espejogiuliano@gmail.com" target="_blanck">
-                    <img src="src/assets/mail.jpg" alt="Mail" />
+                    <img src="public/mail.jpg" alt="Mail" />
                 </a>
                 <a href="tel:+5492612515732" target="_blanck">
-                    <img src="src/assets/phone.png" alt="Phone" />
+                    <img src="public/phone.png" alt="Phone" />
                 </a>
         </footer>
     )
