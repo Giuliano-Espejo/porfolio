@@ -18,6 +18,10 @@
 .text-content{
   margin-left: 3%;
   margin-right: 3%;
+  line-height: 1; /* Altura de línea consistente */
+}
+.text-content p {
+  white-space: pre-line; /* Preserva los saltos de línea en el texto */
 }
 
 .github{

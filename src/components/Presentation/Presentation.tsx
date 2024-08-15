@@ -8,11 +8,11 @@ export default function Presentation() {
                 <div className="text-content-presentation">
                     <h1>Giuliano Espejo</h1>
                     <h2>Back-End Developer</h2>
-                </div>
+                </div> 
                 <img src="/static/fotocara.png" alt="foto cara" className="foto-cara" />
             </div>
             <p className="mx-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas exercitationem doloribus reiciendis vitae autem perspiciatis hic quidem, non eligendi numquam modi quisquam enim nemo doloremque eum? Aspernatur, minus laboriosam quaerat fugiat non omnis quidem aliquid sed assumenda saepe amet distinctio commodi sit adipisci dolores beatae fuga mollitia ipsum obcaecati laudantium!
+               Soy Giuliano Espejo, Técnico Universitario en Programación graduado de la Universidad Tecnlógica Nacional regional Mendoza. Me desenvuelvo como desarrollador Back-End utilizando Java-Spring, busco construir soluciones robustas y escalables que impulsan aplicaciones de alto rendimiento.  
             </p>
             <div className="cv">
                 <a href="/static/GiulianoEspejoCV.pdf" target="_blank">
