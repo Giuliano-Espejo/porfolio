@@ -37,4 +37,7 @@
         margin: 0;
         border: 0;
     }
+    .text-content-presentation{
+        text-align: center;
+    }
 }
