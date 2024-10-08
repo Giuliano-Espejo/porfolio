@@ -38,6 +38,7 @@
   .carousel {
     margin-top: 2%;
     margin-left: 3%;
+    margin-right: 5%;
     width: 60%; /* Ajusta el ancho del carrusel */
     max-width: 500px; /* Define un ancho máximo para el carrusel */
     max-height: 300px; /* Define una altura máxima para el carrusel */
