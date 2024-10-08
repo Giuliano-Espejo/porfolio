@@ -12,7 +12,7 @@ export default function Presentation() {
                 <img src="/static/fotocara.png" alt="foto cara" className="foto-cara" />
             </div>
             <p className="mx-4">
-               Soy Giuliano Espejo, Técnico Universitario en Programación graduado de la Universidad Tecnlógica Nacional regional Mendoza. Me desenvuelvo como desarrollador Back-End utilizando Java-Spring, busco construir soluciones robustas y escalables que impulsan aplicaciones de alto rendimiento.  
+               Soy Giuliano Espejo, Técnico Universitario en Programación graduado de la Universidad Tecnológica Nacional regional Mendoza. Me desenvuelvo como desarrollador Back-End utilizando Java-Spring, busco construir soluciones robustas y escalables que impulsan aplicaciones de alto rendimiento.  
             </p>
             <div className="cv">
                 <a href="/static/GiulianoEspejoCV.pdf" target="_blank">

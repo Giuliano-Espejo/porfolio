@@ -45,16 +45,16 @@ export default function ProyectList() {
                 alt3="Buen Sabor panel de empresas"
                 nombre="Buen Sabor - Proyecto Final"
                 desc={`✅Roles\n
-                       ✅Envío de mail\n
-                       ✅Gestion de imagenes con Cloudinary\n
+                       ✅Envío de correos electrónicos\n
+                       ✅Gestión de imágenescon Cloudinary\n
                        ✅Seguridad con Auth0\n
                        ✅Mapeo mediante Mapstruct\n
                        ✅Patron Facade\n
                        ✅Estadísticas\n
                        ✅Excepciones personalizadas\n
                        ✅Generar Excel\n
-                       ✅Facturas en formato pdf\n
-                       ✅Swagger Ui\n
+                       ✅Facturas en formato PDF\n
+                       ✅Swagger UI\n
                        🔨Java/Spring/MySql/React/Docker`}
                 repo="https://github.com/gonzaaherre/BuenSaborBack2" />
             <hr />
@@ -70,9 +70,9 @@ export default function ProyectList() {
                 ✅Estadísticas\n
                 ✅OAuth2\n
                 ✅JWT\n
-                ✅Envío de mails\n
-                ✅Gestion de imagenes con Firebase\n
-                ✅Swagger Ui\n
+                ✅Envío de correos electrónicos\n
+                ✅Gestión de imágenescon Firebase\n
+                ✅Swagger UI\n
                 🔨Java/Spring/MySql`}
                 repo="" />
             <hr />
@@ -88,7 +88,7 @@ export default function ProyectList() {
                 ✅Estadísticas\n
                 ✅Login tradicional\n
                 ✅JWT\n
-                ✅Swagger Ui\n
+                ✅Swagger UI\n
                 🔨Java/Spring/MySql`}
                 repo="" />
             <hr />
