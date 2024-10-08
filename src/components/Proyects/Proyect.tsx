@@ -16,9 +16,6 @@ interface ImgCarousel {
 }
 
 export const Proyect: FC<ImgCarousel> = ({ imagen, alt, imagen2, alt2, imagen3, alt3, nombre, desc, repo }) => {
-  console.log("imagen1", imagen);
-  console.log("imagen2", imagen2);
-  console.log("imagen3", imagen3);
   return (
     <div className="carousel-container">
       <Carousel className="carousel" data-bs-theme="dark">

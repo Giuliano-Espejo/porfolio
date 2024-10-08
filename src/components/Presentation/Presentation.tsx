@@ -3,8 +3,8 @@ import "./Presentation.css"
 
 export default function Presentation() {
     return (
-        <div className="container border border-dark rounded">
-            <div className="presentation  ">
+        <div className="container">
+            <div className="presentation">
                 <div className="text-content-presentation">
                     <h1>Giuliano Espejo</h1>
                     <h2>Back-End Developer</h2>

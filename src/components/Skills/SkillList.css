@@ -1,6 +1,39 @@
 .containerListSkill {
     display: flex;
-    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente fila */
-    justify-content: center;
-    gap: 2vh; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas bajen a la siguiente fila */
+    justify-content: center; /* Centra las skills horizontalmente */
+    gap: 8vh; /* Espacio vertical entre las tarjetas */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card-skill {
+    flex-basis: 13%; /* Controla el tamaño mínimo de cada skill */
+    max-width: 15%; /* Asegura que las tarjetas no se estiren demasiado */
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .containerListSkill {
+        gap: 3vh;
+    }
+
+    .card-skill {
+        flex-basis: 20%; /* Aumenta el tamaño en pantallas medianas */
+        max-width: 15%;
+    }
+}
+
+@media (max-width: 900px) {
+    .card-skill {
+        flex-basis: 30%; /* 30% del ancho en pantallas más pequeñas */
+        max-width: 20%;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-skill {
+        flex-basis: 45%; /* 45% en pantallas muy pequeñas */
+        max-width: 25%;
+    }
 }

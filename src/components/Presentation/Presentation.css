@@ -1,6 +1,8 @@
 .container {
     margin-top: 3%;
     width: 75%;
+    border: 0.1rem #000 solid;
+    border-radius: 15px;
 }
 
 .presentation {
@@ -30,14 +32,26 @@
     text-align: center;
 }
 
-@media (width < 900px ){
-    .foto-cara{
-        width: 0px;
-        padding: 0;
-        margin: 0;
-        border: 0;
+/* Media query para pantallas pequeñas (resoluciones de celular) */
+@media (max-width: 900px) {
+    .presentation {
+        flex-direction: column-reverse; /* Coloca el texto (nombre y rol) debajo de la imagen */
+        align-items: center; /* Centra los elementos */
     }
-    .text-content-presentation{
+
+    .foto-cara {
+        width: 30%; /* Aumenta el tamaño de la imagen en pantallas pequeñas */
+        margin-bottom: 1rem; /* Añade espacio entre la imagen y el texto */
+    }
+
+    .text-content-presentation {
         text-align: center;
+        margin-right: 0; /* Remueve el margen lateral */
+        margin-top: 0.1rem; /* Añade margen superior al texto para separación */
+    }
+
+    .container {
+        width: 90%; /* Aumenta el ancho del contenedor para pantallas pequeñas */
+        border: 0; /* Elimina el borde en pantallas pequeñas si no es necesario */
     }
 }
