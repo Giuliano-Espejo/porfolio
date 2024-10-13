@@ -1,4 +1,3 @@
-
 .carousel-container img {
   margin: auto; /* Espaciado entre proyectos */
   width: 65%;
@@ -30,6 +29,7 @@
 .tech-table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed; /* Establece un layout fijo para que todas las celdas tengan el mismo ancho */
 }
 
 .tech-table td {
