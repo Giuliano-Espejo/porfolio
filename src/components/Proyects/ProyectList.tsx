@@ -8,32 +8,36 @@ export default function ProyectList() {
             <Proyect
                 imagen="/static/msArquitectura.png"
                 alt="Arquitectura Microservicios"
-                imagen2="/static/msArquitectura.png"
-                alt2="Arquitectura Microservicios"
-                imagen3="/static/msArquitectura.png"
-                alt3="Arquitectura Microservicios"
                 nombre="Sistema de Cursos - Proyecto Personal"
-                desc={`✅Microservicios\n
-                ✅API Gateway\n
-                ✅Eureka\n
-                ✅Config Server\n
-                ✅OPENFEIGN \n
-                🔨Java/Spring/MySql/PostgreSQL/Docker`}
+                description="Sistema de gestión de cursos basado en microservicios. Incluye una arquitectura modular que facilita la escalabilidad y mantenimiento del sistema."
+                technologies={[
+                    "Microservicios",
+                    "API Gateway",
+                    "Eureka",
+                    "Config Server",
+                    "OPENFEIGN",
+                    "Java",
+                    "Spring",
+                    "MySql",
+                    "PostgreSQL",
+                    "Docker"
+                ]}
                 repo="https://github.com/Giuliano-Espejo/Microservicios" />
             <hr />
             <Proyect
                 imagen="/static/trackPosition.gif"
                 alt="Gif de demostración"
-                imagen2="/static/trackPosition.gif"
-                alt2="Gif de demostración"
-                imagen3="/static/trackPosition.gif"
-                alt3="Gif de demostración"
                 nombre="Track Position - Proyecto Personal"
-                desc={`✅WebSocket\n
-                       ✅Leaflet\n
-                       ✅Command Line Runner\n
-                       ✅Rest Template\n
-                        🔨Java/Spring/React`}
+                description="Aplicación en tiempo real para el seguimiento de la ubicación de vehiculos, usando WebSocket para la comunicación instantánea."
+                technologies={[
+                    "WebSocket",
+                    "Leaflet",
+                    "Command Line Runner",
+                    "Rest Template",
+                    "Java",
+                    "Spring",
+                    "React"
+                ]}
                 repo="https://github.com/Giuliano-Espejo/trackPosition" />
             <hr />
             <Proyect
@@ -44,18 +48,24 @@ export default function ProyectList() {
                 imagen3="/static/BuenSabor/BSEmpresa.jpg"
                 alt3="Buen Sabor panel de empresas"
                 nombre="Buen Sabor - Proyecto Final"
-                desc={`✅Roles\n
-                       ✅Envío de correos electrónicos\n
-                       ✅Gestión de imágenescon Cloudinary\n
-                       ✅Seguridad con Auth0\n
-                       ✅Mapeo mediante Mapstruct\n
-                       ✅Patron Facade\n
-                       ✅Estadísticas\n
-                       ✅Excepciones personalizadas\n
-                       ✅Generar Excel\n
-                       ✅Facturas en formato PDF\n
-                       ✅Swagger UI\n
-                       🔨Java/Spring/MySql/React/Docker`}
+                description="Proyecto Final de Carrera, plataforma de e-commerce para un servicio de comida. Incluye gestión de pedidos, facturación, roles de usuario y estadísticas administrativas."
+                technologies={[
+                    "Roles",
+                    "Envío de correos electrónicos",
+                    "Cloudinary",
+                    "Seguridad con Auth0",
+                    "Mapstruct",
+                    "Estadísticas",
+                    "Excepciones personalizadas",
+                    "Generar Excel",
+                    "Facturas en formato PDF",
+                    "Swagger UI",
+                    "Java",
+                    "Spring",
+                    "MySql",
+                    "React",
+                    "Docker"
+                ]}
                 repo="https://github.com/gonzaaherre/BuenSaborBack2" />
             <hr />
             <Proyect
@@ -66,14 +76,19 @@ export default function ProyectList() {
                 imagen3="/static/Ecos/ecos2.png"
                 alt3="Vista Movil"
                 nombre="ECOsistema Red de Impacto - SEMILLERO LATAM"
-                desc={`✅Roles\n
-                ✅Estadísticas\n
-                ✅OAuth2\n
-                ✅JWT\n
-                ✅Envío de correos electrónicos\n
-                ✅Gestión de imágenescon Firebase\n
-                ✅Swagger UI\n
-                🔨Java/Spring/MySql`}
+                description="Plataforma de red de impacto para conectar emprendedores con oportunidades de negocio. Provee estadísticas y herramientas colaborativas."
+                technologies={[
+                    "Roles",
+                    "Estadísticas",
+                    "OAuth2",
+                    "JWT",
+                    "Envío de correos electrónicos",
+                    "Firebase",
+                    "Swagger UI",
+                    "Java",
+                    "Spring",
+                    "MySql",
+                ]}
                 repo="" />
             <hr />
             <Proyect
@@ -84,12 +99,17 @@ export default function ProyectList() {
                 imagen3="/static/Muni/muniStats.png"
                 alt3="Estadisticas de Usuarios"
                 nombre="Bolsa de Trabajo - SEMILLERO LATAM"
-                desc={`✅Roles\n
-                ✅Estadísticas\n
-                ✅Login tradicional\n
-                ✅JWT\n
-                ✅Swagger UI\n
-                🔨Java/Spring/MySql`}
+                description="Plataforma para la gestión de ofertas de trabajo en línea. Incluye gestión de usuarios, roles y autenticación segura."
+                technologies={[
+                    "Roles",
+                    "Estadísticas",
+                    "Seguridad",
+                    "JWT",
+                    "Swagger UI",
+                    "Java",
+                    "Spring",
+                    "MySql"
+                ]}
                 repo="" />
             <hr />
         </div>

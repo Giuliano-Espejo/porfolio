@@ -3,6 +3,7 @@ import Presentation from "./components/Presentation/Presentation";
 import ProyectList from "./components/Proyects/ProyectList";
 import SkillList from "./components/Skills/SkillList";
 import "./App.css"
+import { ContactUs } from "./components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Presentation/>
         <SkillList/>
         <ProyectList/>
+        <ContactUs/>
         <Contact/>
       </div>
     </>
