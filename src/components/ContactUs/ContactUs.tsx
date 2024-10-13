@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./ContactUs.css"
 
 export const ContactUs = () => {
     const refForm = useRef<HTMLFormElement>(null);
@@ -24,7 +25,7 @@ export const ContactUs = () => {
     };
 
     return (
-        <div className="container" style={{ marginBottom: '7%' }}>
+        <div className="container conctactUs">
             <h2 className="text-center mb-4">Contáctame</h2>
             <form ref={refForm} onSubmit={handleSubmit} className="bg-light p-4 rounded shadow">
                 <fieldset className="mb-3">

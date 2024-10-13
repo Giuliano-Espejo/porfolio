@@ -1,0 +1,9 @@
+.conctactUs {
+  margin-bottom: 7%;
+}
+
+@media (max-width: 900px) {
+  .conctactUs {
+    margin-bottom: 20%;
+  }
+}
