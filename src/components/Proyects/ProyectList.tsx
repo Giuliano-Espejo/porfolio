@@ -52,6 +52,7 @@ export default function ProyectList() {
                 technologies={[
                     "Roles",
                     "Envío de correos electrónicos",
+                    "Mercado Pago API",
                     "Cloudinary",
                     "Seguridad con Auth0",
                     "Mapstruct",
