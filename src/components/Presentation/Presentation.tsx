@@ -9,7 +9,7 @@ export default function Presentation() {
                     <h1>Giuliano Espejo</h1>
                     <h2>Back-End Developer</h2>
                 </div>
-                <img src="/static/fotocara.png" alt="foto cara" className="foto-cara" />
+                <img src="/static/fotocara.webp" alt="foto cara" className="foto-cara" />
             </div>
             <p className="mx-4">
                 ¡Hola! Soy <strong>Giuliano Espejo</strong>, un Desarrollador Back-End, con conocimientos Full Stack y con una sólida formación en <strong>Java</strong> y más de un año de experiencia en el desarrollo

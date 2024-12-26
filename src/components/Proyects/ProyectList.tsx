@@ -6,7 +6,7 @@ export default function ProyectList() {
             <h2 style={{ textAlign: "center", marginTop: "3%" }}>Proyectos realizados</h2>
             <hr />
             <Proyect
-                imagen="/static/msArquitectura.png"
+                imagen="/static/msArquitectura.webp"
                 alt="Arquitectura Microservicios"
                 nombre="Sistema de Cursos - Proyecto Personal"
                 description="Sistema de gestión de cursos basado en microservicios. Incluye una arquitectura modular que facilita la escalabilidad y mantenimiento del sistema."
@@ -41,11 +41,11 @@ export default function ProyectList() {
                 repo="https://github.com/Giuliano-Espejo/trackPosition" />
             <hr />
             <Proyect
-                imagen="/static/BuenSabor/buenSabor.jpg"
+                imagen="/static/BuenSabor/buenSabor.webp"
                 alt="Buen Sabor E-Commerce"
-                imagen2="/static/BuenSabor/BSGraficos.jpg"
+                imagen2="/static/BuenSabor/BSGraficos.webp"
                 alt2="Buen Sabor Panel Administrativo"
-                imagen3="/static/BuenSabor/BSEmpresa.jpg"
+                imagen3="/static/BuenSabor/BSEmpresa.webp"
                 alt3="Buen Sabor panel de empresas"
                 nombre="Buen Sabor - Proyecto Final"
                 description="Proyecto Final de Carrera, plataforma de e-commerce para un servicio de comida. Incluye gestión de pedidos, facturación, roles de usuario y estadísticas administrativas."
@@ -70,11 +70,11 @@ export default function ProyectList() {
                 repo="https://github.com/gonzaaherre/BuenSaborBack2" />
             <hr />
             <Proyect
-                imagen="/static/Ecos/ecosHome.png"
+                imagen="/static/Ecos/ecosHome.webp"
                 alt="Pagina Home proyecto ECOsistema"
-                imagen2="/static/Ecos/ecosLogin.png"
+                imagen2="/static/Ecos/ecosLogin.webp"
                 alt2="Login del proyecto ECOsistema"
-                imagen3="/static/Ecos/ecos2.png"
+                imagen3="/static/Ecos/ecos2.webp"
                 alt3="Vista Movil"
                 nombre="ECOsistema Red de Impacto - SEMILLERO LATAM"
                 description="Plataforma de red de impacto para conectar emprendedores con oportunidades de negocio. Provee estadísticas y herramientas colaborativas."
@@ -93,11 +93,11 @@ export default function ProyectList() {
                 repo="" />
             <hr />
             <Proyect
-                imagen="/static/Muni/muniOferta.png"
+                imagen="/static/Muni/muniOferta.webp"
                 alt="Sector de Ofertas "
-                imagen2="/static/Muni/muniLogin.png"
+                imagen2="/static/Muni/muniLogin.webp"
                 alt2="Login del proyecto"
-                imagen3="/static/Muni/muniStats.png"
+                imagen3="/static/Muni/muniStats.webp"
                 alt3="Estadisticas de Usuarios"
                 nombre="Bolsa de Trabajo - SEMILLERO LATAM"
                 description="Plataforma para la gestión de ofertas de trabajo en línea. Incluye gestión de usuarios, roles y autenticación segura."
